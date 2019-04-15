@@ -61,11 +61,24 @@
 
 <p>Language is one of the most fundamental boundaries for many war-impacted people, who often have the least access to English-learning institutions.</p>
 
-// buttons
+<div id='language-switching-buttons'>
+<span class='material-icons'>language</span>
+<span>English</span>
+<span>كوردی</span>
+<span>عربي</span>
+</div>
 
-Home
+<div id='direction-switching-buttons'>
+<span class='material-icons'>format_align_justify</span>
+<span>format_textdirection_l_to_r</span>
+<span>format_textdirection_r_to_l</span>
+</div>
 
-Sign in
+<span>Home</span>
+
+<span>Sign in</span>
+	
+<p>And yes, this scales elegantly. We have had success with full-site implementation of this. You can opt to write a function to output the binding, or hard-write it into each p, span, button, or other HTML element.</p>
 
 </div>
 
