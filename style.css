@@ -98,6 +98,27 @@ border-radius: 100px;
   margin: 0 10px;
   }
 
+#home-button {
+	background: rgba(255,255,255, 0.15);
+	color: #fff;
+	padding: 20px 30px;
+	font-size: 90%;
+	margin: 20px 30px;
+	display: inline-block;
+	border-radius: 100px;
+	border: 3px solid #fff;
+	}
+
+#sign-in-button {
+	background: #fff;
+	color: #5fa0dd;
+	padding: 20px 30px;
+	margin: 20px 30px;
+	display: inline-block;
+	border-radius: 100px;
+	line-height: 0;
+	}
+
 #block-amp-list {
   background-image: linear-gradient(-165deg, #d170c2, #db8855);
   padding: 40px 0;
