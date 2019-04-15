@@ -88,9 +88,9 @@ $text_direction_default = "left-to-right"; ?>
 
 <div id='block-language-switching'>
 
-<h2 class='<? echo $text_direction_default ?>' [class]="textDirectionClasses[text-direction][style]" [text]="translatableElements['language-switching'][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_default] ?></h2>
+<h2 class='<? echo $text_direction_default ?>' [class]="textDirectionClasses[text-direction]['style']" [text]="translatableElements['language-switching'][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_default] ?></h2>
 
-<p class='<? echo $text_direction_default ?>' [class]="textDirectionClasses[text-direction][style]" [text]="translatableElements['language-paragraph-one'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_default] ?></p>
+<p class='<? echo $text_direction_default ?>' [class]="textDirectionClasses[text-direction]['style']" [text]="translatableElements['language-paragraph-one'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_default] ?></p>
 
 <div id='language-switching-buttons'>
 <span class='material-icons'>language</span>
