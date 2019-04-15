@@ -53,6 +53,8 @@
 
 <p>View the source code at <a href='https://github.com/leviclancy/amp-lab/'>github.com/leviclancy/amp-lab/</a> to peek under the hood.</p>
 
+<div id='block-intro-line'><span>&nbsp;</span></div>
+
 </div>
 
 <div id='block-language-switching'>
