@@ -63,19 +63,19 @@
 
 // buttons
 
-<div>
-
 Home
 
 Sign in
 
 </div>
 
-</div>
-
 <div id='block-amp-list'>
 
 <h2>AMP listing whenever possible!</h2>
+
+</div>
+
+<div id='block-amp-form'>
 
 <h2>AMP form responsiveness</h2>
 
