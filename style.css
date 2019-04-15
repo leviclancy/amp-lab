@@ -41,7 +41,7 @@ h2 {
 
 #block-intro {
   background: #fff;
-  padding: 40px 0;
+  padding: 60px 0;
   color: #000;
   }
 
@@ -70,7 +70,7 @@ border-radius: 100px;
 
 #block-language-switching {
   background-image: linear-gradient(20deg, #5fa0dd, #444);
-  padding: 40px 0;
+  padding: 60px 0;
   color: #fff;
   position: relative;
   }
@@ -129,13 +129,13 @@ border-radius: 100px;
 
 #block-amp-list {
   background-image: linear-gradient(-165deg, #d170c2, #db8855);
-  padding: 40px 0;
+  padding: 60px 0;
   color: #fff;
   }
 
 #block-amp-form {
   background-image: linear-gradient(110deg, #d170c2, #5384b2);
-  padding: 40px 0;
+  padding: 60px 0;
   color: #fff;
   }
 
