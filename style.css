@@ -58,12 +58,12 @@ h2 {
   display: block;
   position: absolute;
   left: 50%;
-  top: -25px;
-  margin-left: -35px;
+  top: -35px;
+  margin-left: -43px;
   width: 70px;
   height: 70px;
   background: #fff;
-	border: 20px solid #000;
+	border: 15px solid #000;
 	border-radius: 100px;
 	}
 
