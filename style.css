@@ -97,6 +97,7 @@ border-radius: 100px;
   padding: 0;
   margin: 0 10px;
 	outline: none;
+	cursor: pointer;
   }
 
 #button-alignment {
