@@ -88,9 +88,9 @@ $text_direction_default = "left-to-right"; ?>
 
 <div id='block-language-switching'>
 
-<h2 class='<? echo $text_direction_default ?>' [class]="textDirectionClasses[text-direction]['style']" [text]="translatableElements['language-switching'][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_default] ?></h2>
+<h2 class='<? echo $text_direction_default ?>' [class]="textDirectionClasses[textDirection]['style']" [text]="translatableElements['language-switching'][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_default] ?></h2>
 
-<p class='<? echo $text_direction_default ?>' [class]="textDirectionClasses[text-direction]['style']" [text]="translatableElements['language-paragraph-one'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_default] ?></p>
+<p class='<? echo $text_direction_default ?>' [class]="textDirectionClasses[textDirection]['style']" [text]="translatableElements['language-paragraph-one'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_default] ?></p>
 
 <div id='language-switching-buttons'>
 <span class='material-icons'>language</span>
@@ -100,8 +100,8 @@ $text_direction_default = "left-to-right"; ?>
 </div>
 
 <div id='direction-switching-buttons'>
-<span class='material-icons' role='button' tabindex='0' on="AMP.setState({text-direction: 'ltr'})">format_textdirection_l_to_r</span>
-<span class='material-icons' role='button' tabindex='0' on="AMP.setState({text-direction: 'rtl'})">format_textdirection_r_to_l</span>
+<span class='material-icons' role='button' tabindex='0' on="AMP.setState({textDirection: 'ltr'})">format_textdirection_l_to_r</span>
+<span class='material-icons' role='button' tabindex='0' on="AMP.setState({textDirection: 'rtl'})">format_textdirection_r_to_l</span>
 </div>
 
 <span class='<? echo $text_direction_default ?>' [class]="textDirectionClasses[text-direction].style" [text]="translatableElements['home'][selectedLanguage]"><? echo $translatable_elements['home'][$language_default] ?></span>
