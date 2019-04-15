@@ -25,7 +25,7 @@ p {
 
 a {
   color: inherit;
-  text-decoration: inherit;
+  text-decoration: underline;
   opacity: 0.8;
   }
   
