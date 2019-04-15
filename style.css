@@ -52,6 +52,7 @@ h2 {
   position: relative;
   margin: 100px auto 80px;
   max-width: 800px;
+border-radius: 100px;
   }
 
 #block-intro-line span {
@@ -108,3 +109,9 @@ h2 {
   padding: 40px 0;
   color: #fff;
   }
+
+@media (max-width: 800px) {
+	#block-intro-line {
+		border-radius: 0;
+		}
+	}
