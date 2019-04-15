@@ -11,7 +11,7 @@
 	"ku": "Kurdish p 1" },
 
 "language-paragraph-two" : {
-	"ar": "و نعم، هذا يتغير بشكل واضح. لقد حققنا نجاحًا في تنفيذ هذا الموقع بالكامل. بإمكانك الاختيار لإنجاز وظيفة محددة لكتابة النص، أو كتابته داخل كل p,  span، button، أو عنصر HTML.",
+	"ar": "و نعم، هذا يتغير بشكل واضح. لقد حققنا نجاحًا في تنفيذ هذا الموقع بالكامل. بإمكانك الاختيار لإنجاز وظيفة محددة لكتابة النص، أو كتابته داخل كل <span class='left-to-right'>p</span>,  <span class='left-to-right'>span</span>, <span class='left-to-right'>button</span>, أو عنصر HTML.",
 	"en": "And yes, this scales elegantly. We have had success with full-site implementation of this. You can opt to write a function to output the binding, or hard-write it into each &lt;p>, &lt;span>, &lt;button>, or other HTML element.",
 	"ku": "Kurdish p 2" },
 
