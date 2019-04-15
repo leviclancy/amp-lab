@@ -34,20 +34,26 @@ h2 {
   font-size: 150%;
   }
 
-#amp-intro {
-  background-image: linear-gradient(45deg, #333, #999);
+#block-intro {
+  background: #111;
   padding: 40px 0;
   color: #fff;
   }
 
 #block-language-switching {
-  background-image: linear-gradient(45deg, #333, #999);
+  background-image: linear-gradient(75deg, #5fa0dd, #555);
   padding: 40px 0;
   color: #fff;
   }
 
 #block-amp-list {
-  background-image: linear-gradient(45deg, #333, #999);
+  background-image: linear-gradient(120deg, #db8855, #888);
+  padding: 40px 0;
+  color: #fff;
+  }
+
+#block-amp-form {
+  background-image: linear-gradient(165deg, #d170c2, #888);
   padding: 40px 0;
   color: #fff;
   }
