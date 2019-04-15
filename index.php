@@ -43,8 +43,9 @@
 
 	</amp-state>
 
-
-<h1>AMP Lab</h1>
+<amp-img src='https://alisha.narrative.fyi/?action=image&image_id=7477454261341342759467916895795542287694' layout='responsive' width='1.858' height='1'></amp-img>
+	      
+<h1>AMP Lab by narrative.fyi</h1>
 
 <p>Chonan! (Kurdish <i>Hello, folks</i></i>) We are excited to show you live examples of the subject matter in our talk from 2019's Google AMP conference. Check it out below, and get in touch for any questions. Contact information is avaialable at <a href-"https://narrative.fyi">narrative.fyi</a>.</p>
 
