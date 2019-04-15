@@ -59,8 +59,8 @@ h2 {
 
 #language-switching-buttons {
   position: absolute;
-  top: 20px;
-  right: 10px;
+  top: 10px;
+  right: 15px;
   }
 
 #language-switching-buttons span {
@@ -73,8 +73,8 @@ h2 {
 
 #direction-switching-buttons {
   position: absolute;
-  bottom: 20px;
-  left: 10px;
+  bottom: 10px;
+  left: 15px;
   }
 
 #direction-switching-buttons span {
