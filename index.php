@@ -43,7 +43,7 @@ $text_direction_default = "left-to-right"; ?>
 		unicode-bidi: bidi-override; 
 	      }
 	      
-	 .right-to-left {
+	.right-to-left {
 		text-align: right;
 		direction: rtl;
 		unicode-bidi: bidi-override; 
@@ -66,6 +66,11 @@ $text_direction_default = "left-to-right"; ?>
 	$translatable_elements = json_decode($translatable_elements, TRUE);
 	?>
 	</script></amp-state>
+
+<amp-state id='textDirection'><script type='application/json'>
+	{ "ltr": "left-to-right",
+	"rtl": "right-to-left" }
+	</script></amp-state>
 								    
 <amp-img src='https://alisha.narrative.fyi/?action=image&image_id=7477454261341342759467916895795542287694' layout='responsive' width='1.858' height='1' amp-fx='parallax' data-parallax-factor='1.3'></amp-img>
 
@@ -83,9 +88,9 @@ $text_direction_default = "left-to-right"; ?>
 
 <div id='block-language-switching'>
 
-<h2 class='<? echo $text_direction_default ?>' [class]="textDirection" [text]="translatableElements['language-switching'][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_default] ?></h2>
+<h2 class='<? echo $text_direction_default ?>' [class]="textDirection[Direction]" [text]="translatableElements['language-switching'][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_default] ?></h2>
 
-<p class='<? echo $text_direction_default ?>' [class]="textDirection" [text]="translatableElements['language-paragraph-one'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_default] ?></p>
+<p class='<? echo $text_direction_default ?>' [class]="textDirection[Direction]" [text]="translatableElements['language-paragraph-one'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_default] ?></p>
 
 <div id='language-switching-buttons'>
 <span class='material-icons'>language</span>
@@ -95,16 +100,15 @@ $text_direction_default = "left-to-right"; ?>
 </div>
 
 <div id='direction-switching-buttons'>
-<span class='material-icons'>format_align_justify</span>
-<span class='material-icons' role='button' tabindex='0' on="AMP.setState({textDirection: 'left-to-right'})">format_textdirection_l_to_r</span>
-<span class='material-icons' role='button' tabindex='0' on="AMP.setState({textDirection: 'right-to-left'})">format_textdirection_r_to_l</span>
+<span class='material-icons' role='button' tabindex='0' on="AMP.setState({Direction: 'ltr'})">format_textdirection_l_to_r</span>
+<span class='material-icons' role='button' tabindex='0' on="AMP.setState({Direction: 'rtl'})">format_textdirection_r_to_l</span>
 </div>
 
-<span class='<? echo $text_direction_default ?>' [class]="textDirection" [text]="translatableElements['home'][selectedLanguage]"><? echo $translatable_elements['home'][$language_default] ?></span>
+<span class='<? echo $text_direction_default ?>' [class]="textDirection[Direction]" [text]="translatableElements['home'][selectedLanguage]"><? echo $translatable_elements['home'][$language_default] ?></span>
 
-<span class='<? echo $text_direction_default ?>' [class]="textDirection" [text]="translatableElements['sign-in'][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_default] ?></span>
+<span class='<? echo $text_direction_default ?>' [class]="textDirection[Direction]" [text]="translatableElements['sign-in'][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_default] ?></span>
 	
-<p class='<? echo $text_direction_default ?>' [class]='textDirection' [text]="translatableElements['language-paragraph-two'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_default] ?></p>
+<p class='<? echo $text_direction_default ?>' [class]='textDirection[Direction]' [text]="translatableElements['language-paragraph-two'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_default] ?></p>
 
 </div>
 
