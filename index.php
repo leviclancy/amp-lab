@@ -40,7 +40,11 @@
 <body>
 	
 <amp-state id=’translatableElements’>
-
+	<? // We are going to load the translatable elements as an <amp-state> and as a programmatic array
+	$translatable_elements = file_get_contents('translatable_elements.json', FILE_USE_INCLUDE_PATH); // First, get the JSON file
+	echo $translatable_elements; // Echo it into the <amp-state>
+	$translatable_elements = json_decode($translatable_elements, TRUE); // Make it into an array for setting initial values programmatically
+	?>
 	</amp-state>
 
 <amp-img src='https://alisha.narrative.fyi/?action=image&image_id=7477454261341342759467916895795542287694' layout='responsive' width='1.858' height='1' amp-fx='parallax' data-parallax-factor='1.3'></amp-img>
@@ -59,15 +63,15 @@
 
 <div id='block-language-switching'>
 
-<h2>Language switching!</h2>
+<h2 [text]="translatableElements['language-switching'][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_request] ?></h2>
 
-<p>Language is one of the most fundamental boundaries for many war-impacted people, who often have the least access to English-learning institutions.</p>
+<p [text]="translatableElements['language-paragraph-one'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_request] ?></p>
 
 <div id='language-switching-buttons'>
 <span class='material-icons'>language</span>
-<span>English</span>
-<span>كوردی</span>
-<span>عربي</span>
+<span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'en'})">English</span>
+<span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'ku'})">كوردی</span>
+<span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'ar'})">عربي</span>
 </div>
 
 <div id='direction-switching-buttons'>
@@ -76,11 +80,11 @@
 <span class='material-icons'>format_textdirection_r_to_l</span>
 </div>
 
-<span>Home</span>
+<span [text]="translatableElements['home'][selectedLanguage]"><? echo $translatable_elements['home'][$language_request] ?></span>
 
-<span>Sign in</span>
+<span [text]="translatableElements['sign-in'][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_request] ?></span>
 	
-<p>And yes, this scales elegantly. We have had success with full-site implementation of this. You can opt to write a function to output the binding, or hard-write it into each p, span, button, or other HTML element.</p>
+<p [text]="translatableElements['language-paragraph-two'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_request] ?></p>
 
 </div>
 
