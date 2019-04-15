@@ -1,5 +1,3 @@
-<? $translatable_elements = file_get_contents('translatable_elements.json', FILE_USE_INCLUDE_PATH); ?>
-
 <!-- Open document -->
 <!doctype html> <html amp lang='en'>
 
@@ -41,7 +39,7 @@
 	
 <amp-state id=’translatableElements’>
 	<? // We are going to load the translatable elements as an <amp-state> and as a programmatic array
-	$translatable_elements = file_get_contents('translatable_elements.json', FILE_USE_INCLUDE_PATH); // First, get the JSON file
+	$translatable_elements = file_get_contents('translatable-elements.json', FILE_USE_INCLUDE_PATH); // First, get the JSON file
 	echo $translatable_elements; // Echo it into the <amp-state>
 	$translatable_elements = json_decode($translatable_elements, TRUE); // Make it into an array for setting initial values programmatically
 	?>
