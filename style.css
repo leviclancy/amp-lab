@@ -53,13 +53,13 @@ h2 {
   }
 
 #block-amp-list {
-  background-image: linear-gradient(110deg, #db8855, #5384b2);
+  background-image: linear-gradient(110deg, #d170c2, #5384b2);
   padding: 40px 0;
   color: #fff;
   }
 
 #block-amp-form {
-  background-image: linear-gradient(165deg, #d170c2, #db8855);
+  background-image: linear-gradient(-165deg, #d170c2, #db8855);
   padding: 40px 0;
   color: #fff;
   }
