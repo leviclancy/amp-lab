@@ -1,4 +1,4 @@
-<? file
+<? $translatable_elements = file_get_contents('translatable_elements.json', FILE_USE_INCLUDE_PATH); ?>
 
 <!-- Open document -->
 <!doctype html> <html amp lang='en'>
@@ -23,11 +23,14 @@
 <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script> <!-- AMP bind -->
 <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script> <!-- AMP parallax -->
 	
+<!-- Set up HTML -->
 <title>AMP Lab @narrative.fyi</title>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 <meta name='theme-color' content='#000'>
 <base href='/' />
 
+<!-- Custom CSS -->
 <style amp-custom>
 	<? include_once('style.css'); ?>
 	</style>
@@ -44,6 +47,8 @@
 <h1>AMP Lab</h1>
 
 <p>Chonan! (Kurdish <i>Hello, folks</i></i>) We are excited to show you live examples of the subject matter in our talk from 2019's Google AMP conference. Check it out below, and get in touch for any questions. Contact information is avaialable at <a href-"https://narrative.fyi">narrative.fyi</a>.</p>
+
+<p>View the source code for this at <a href='https://github.com/leviclancy/amp-lab/'>github.com/leviclancy/amp-lab/</a> to see behind-the-scenes.</p>
 
 <h2>Language switching!</h2>
 
@@ -62,3 +67,7 @@ Sign in
 <h2>AMP listing whenever possible!</h2>
 
 <h2>AMP form responsiveness</h2>
+
+</body>
+
+</html>
