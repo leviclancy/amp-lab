@@ -51,9 +51,9 @@
 
 <p amp-fx='parallax' data-parallax-factor='1.2'>Chonan! (Kurdish <i>Hello, folks</i></i>) We are excited to show you live examples of the subject matter in our talk from 2019's Google AMP conference. Check it out below, and get in touch for any questions. Contact information is avaialable at <a href-"https://narrative.fyi">narrative.fyi</a>.</p>
 
-<p amp-fx='parallax' data-parallax-factor='1.2'>View the source code at <a href='https://github.com/leviclancy/amp-lab/'>github.com/leviclancy/amp-lab/</a> to peek under the hood.</p>
+<p amp-fx='parallax' data-parallax-factor='1.15'>View the source code at <a href='https://github.com/leviclancy/amp-lab/'>github.com/leviclancy/amp-lab/</a> to peek under the hood.</p>
 
-<div id='block-intro-line' amp-fx='parallax' data-parallax-factor='1.1'><span></span></div>
+<div id='block-intro-line' amp-fx='parallax' data-parallax-factor='1.05'><span></span></div>
 
 </div>
 
