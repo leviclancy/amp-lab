@@ -54,6 +54,33 @@ h2 {
   background-image: linear-gradient(20deg, #5fa0dd, #444);
   padding: 40px 0;
   color: #fff;
+  position: relative;
+  }
+
+#language-switching-buttons {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  }
+
+#language-switching-buttons span {
+  font-size: 60%;
+  opacity: 0.8;
+  padding: 0;
+  margin: 0 10px;
+  }
+
+#direction-switching-buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  }
+
+#direction-switching-buttons span {
+  font-size: 60%;
+  opacity: 0.8;
+  padding: 0;
+  margin: 0 10px;
   }
 
 #block-amp-list {
