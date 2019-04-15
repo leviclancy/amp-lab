@@ -39,13 +39,11 @@ $text_direction_default = "left-to-right"; ?>
 	      
 	.left-to-right {
 		text-align: left;
-		direction: ltr;
 		unicode-bidi: bidi-override; 
 	      }
 	      
 	.right-to-left {
 		text-align: right;
-		direction: rtl;
 		unicode-bidi: bidi-override; 
 	      }
 	      
