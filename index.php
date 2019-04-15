@@ -1,6 +1,6 @@
 <? // Set a default language, either hard-coded or via a COOKIE or REQUEST value
 $language_default = "en";
-$text_direction_default = "left-to-right"; ?>
+$text_direction_default = "ltr"; ?>
 
 
 <!-- Open document -->
