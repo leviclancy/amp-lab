@@ -101,6 +101,7 @@ border-radius: 100px;
 #button-alignment {
 	text-align: center;
 	display: block;
+}
 
 #home-button {
 	background: rgba(255,255,255, 0.15);
