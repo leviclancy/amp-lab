@@ -47,19 +47,19 @@ h2 {
   }
 
 #block-language-switching {
-  background-image: linear-gradient(75deg, #5fa0dd, #555);
+  background-image: linear-gradient(75deg, #5fa0dd, #444);
   padding: 40px 0;
   color: #fff;
   }
 
 #block-amp-list {
-  background-image: linear-gradient(120deg, #db8855, #888);
+  background-image: linear-gradient(-75deg, #db8855, #444);
   padding: 40px 0;
   color: #fff;
   }
 
 #block-amp-form {
-  background-image: linear-gradient(165deg, #d170c2, #888);
+  background-image: linear-gradient(165deg, #d170c2, #444);
   padding: 40px 0;
   color: #fff;
   }
