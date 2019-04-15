@@ -68,6 +68,8 @@ h2 {
 	font-family: Calibri;
 	line-height: 1em;
 	color: #fff;
+	text-align: center;
+	vertical-align: middle;
   }
 
 #block-language-switching {
