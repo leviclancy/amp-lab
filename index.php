@@ -1,5 +1,9 @@
+<? // Set a default language, either hard-coded or via a COOKIE or REQUEST value
+$language_default = "en"; ?>
+
+
 <!-- Open document -->
-<!doctype html> <html amp lang='en'>
+<!doctype html> <html amp lang='<? echo $language_default; ?>'>
 
 <!-- Open HTML head -->
 <head> <meta charset='utf-8'>
@@ -39,9 +43,13 @@
 	
 <amp-state id='translatableElements'>
 	<? // We are going to load the translatable elements as an <amp-state> and as a programmatic array
-	$translatable_elements = file_get_contents('translatable-elements.json', FILE_USE_INCLUDE_PATH); // First, get the JSON file
-	echo $translatable_elements; // Echo it into the <amp-state>
-	$translatable_elements = json_decode($translatable_elements, TRUE); // Make it into an array for setting initial values programmatically
+
+	// First, get the JSON file
+	$translatable_elements = file_get_contents('translatable-elements.json', FILE_USE_INCLUDE_PATH);
+	 // Echo it into the <amp-state>
+	echo $translatable_elements;		    
+	// Make it into an array for setting initial values programmatically
+	$translatable_elements = json_decode($translatable_elements, TRUE);
 	?>
 	</amp-state>
 
@@ -61,9 +69,9 @@
 
 <div id='block-language-switching'>
 
-<h2 [text]="translatableElements['language-switching'][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_request] ?></h2>
+<h2 [text]="translatableElements['language-switching'][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_default] ?></h2>
 
-<p [text]="translatableElements['language-paragraph-one'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_request] ?></p>
+<p [text]="translatableElements['language-paragraph-one'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_default] ?></p>
 
 <div id='language-switching-buttons'>
 <span class='material-icons'>language</span>
@@ -78,11 +86,11 @@
 <span class='material-icons'>format_textdirection_r_to_l</span>
 </div>
 
-<span [text]="translatableElements['home'][selectedLanguage]"><? echo $translatable_elements['home'][$language_request] ?></span>
+<span [text]="translatableElements['home'][selectedLanguage]"><? echo $translatable_elements['home'][$language_default] ?></span>
 
-<span [text]="translatableElements['sign-in'][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_request] ?></span>
+<span [text]="translatableElements['sign-in'][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_default] ?></span>
 	
-<p [text]="translatableElements['language-paragraph-two'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_request] ?></p>
+<p [text]="translatableElements['language-paragraph-two'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_default] ?></p>
 
 </div>
 
