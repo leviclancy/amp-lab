@@ -102,7 +102,7 @@ $text_direction_default = "left-to-right"; ?>
 
 <span class='<? echo $text_direction_default ?>' [class]="textDirection" [text]="translatableElements['sign-in'][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_default] ?></span>
 	
-<p class='<? echo $text_direction_default ?>' [class]="textDirection" [text]="translatableElements['language-paragraph-two'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_default] ?></p>
+<p class='<? echo $text_direction_default ?>' [class]='textDirection' [text]="translatableElements['language-paragraph-two'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_default] ?></p>
 
 </div>
 
