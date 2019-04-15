@@ -95,8 +95,8 @@ $text_direction_default = "left-to-right"; ?>
 </div>
 
 <div id='direction-switching-buttons'>
-<span class='material-icons' role='button' tabindex='0' on="tap: AMP.setState({selectedDirection: 'left-to-right'})">format_textdirection_l_to_r</span>
-<span class='material-icons' role='button' tabindex='0' on="tap: AMP.setState({selectedDirection: 'right-to-left'})">format_textdirection_r_to_l</span>
+<span class='material-icons' role='button' tabindex='0' on="tap: AMP.setState({selectedDirection: 'left-to-right', selectedLanguage: selectedLanguage})">format_textdirection_l_to_r</span>
+<span class='material-icons' role='button' tabindex='0' on="tap: AMP.setState({selectedDirection: 'right-to-left', selectedLanguage: selectedLanguage})">format_textdirection_r_to_l</span>
 </div>
 
 <span class='<? echo $text_direction_default ?>' [class]="selectedDirection" [text]="translatableElements['home'][selectedLanguage]"><? echo $translatable_elements['home'][$language_default] ?></span>
