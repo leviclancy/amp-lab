@@ -45,7 +45,8 @@ h2 {
   color: #000;
   }
 
-#block-intro p {
+#block-intro p:last-child {
+  padding-bottom: 25px;
   border-bottom: 15px solid #000;
   }
 
