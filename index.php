@@ -70,8 +70,8 @@
 
 <div id='direction-switching-buttons'>
 <span class='material-icons'>format_align_justify</span>
-<span>format_textdirection_l_to_r</span>
-<span>format_textdirection_r_to_l</span>
+<span class='material-icons'>format_textdirection_l_to_r</span>
+<span class='material-icons'>format_textdirection_r_to_l</span>
 </div>
 
 <span>Home</span>
