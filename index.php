@@ -90,16 +90,16 @@ $text_direction_default = "ltr"; ?>
 <span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'en'})">English</span>
 <span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'ku'})">كوردی</span>
 <span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'ar'})">عربي</span>
-</div>
+</div>	
 
 <div id='direction-switching-buttons'>
 <span class='material-icons' role='button' tabindex='0' on="tap: AMP.setState({selectedDirection: 'left-to-right', selectedLanguage: selectedLanguage || '<? echo $language_default ?>'})">format_textdirection_l_to_r</span>
 <span class='material-icons' role='button' tabindex='0' on="tap: AMP.setState({selectedDirection: 'right-to-left', selectedLanguage: selectedLanguage || '<? echo $language_default ?>'})">format_textdirection_r_to_l</span>
 </div>
 
-<span class='<? echo $text_direction_default ?>' [class]="selectedDirection" [text]="translatableElements['home'][selectedLanguage]"><? echo $translatable_elements['home'][$language_default] ?></span>
+<span id='home-button' class='<? echo $text_direction_default ?>' [class]="selectedDirection" [text]="translatableElements['home'][selectedLanguage]"><? echo $translatable_elements['home'][$language_default] ?></span>
 	
-<span class='<? echo $text_direction_default ?>' [class]="selectedDirection" [text]="translatableElements['sign-in'][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_default] ?></span>
+<span id='sign-in-button' class='<? echo $text_direction_default ?>' [class]="selectedDirection" [text]="translatableElements['sign-in'][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_default] ?></span>
 	
 <p class='<? echo $text_direction_default ?>' [class]="selectedDirection" [text]="translatableElements['language-paragraph-two'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_default] ?></p>
 
