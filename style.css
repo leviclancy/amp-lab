@@ -22,6 +22,12 @@ h1, h2, p {
 p {
   margin: 30px auto;
   }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  opacity: 0.8;
+  }
   
 h1 {
   font-size: 190%;
