@@ -64,10 +64,9 @@ h2 {
   height: 70px;
   background: #000;
   border-radius: 100px;
-	padding-top: 25px;
 	font-size: 30px;
 	font-family: Calibri;
-	line-height: 0;
+	line-height: 50px;
 	color: #fff;
 	text-align: center;
 	vertical-align: middle;
