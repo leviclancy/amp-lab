@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Nunito';
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.3em;
   }
 
@@ -24,28 +24,30 @@ p {
   }
   
 h1 {
-  font-size: 150%;
+  font-size: 190%;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #555;
+  opacity: 0.85;
   }
   
 h2 {
-  font-size: 140%;
-  color: #333;
+  font-size: 150%;
   }
 
 #amp-intro {
   background-image: linear-gradient(45deg, #333, #999);
+  padding: 40px 0;
   color: #fff;
   }
 
 #block-language-switching {
   background-image: linear-gradient(45deg, #333, #999);
+  padding: 40px 0;
   color: #fff;
   }
 
 #block-amp-list {
   background-image: linear-gradient(45deg, #333, #999);
+  padding: 40px 0;
   color: #fff;
   }
