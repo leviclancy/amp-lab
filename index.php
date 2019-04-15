@@ -38,12 +38,12 @@ $text_direction_default = "left-to-right"; ?>
 	<? include_once('style.css'); ?>
 	      
 	.left-to-right {
-	      text-align: right;
+	      text-align: left;
 	      direction: ltr;
 	      }
 	      
 	 .right-to-left {
-	      text-align: left;
+	      text-align: right;
 	      direction: rtl;
 	      }
 	      
