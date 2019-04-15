@@ -6,13 +6,13 @@
 	"ku": "Kurdish language switching" },
 	
 "language-paragraph-one" : {
-	"ar": "Arabic p 1",
+	"ar": "تعتبر اللغة واحدة من أكثر الحدود الجوهرية الفاصلة لدخول عالم التكنولوجيا للعديد من الأشخاص المتأثرين في الحرب، و اللذين غالباً ما يكونون أقل قدرة للوصول إلى مؤسسات تعليم اللغة الانجليزية.",
 	"en": "Language is one of the most fundamental boundaries for many war-impacted people, who often have the least access to English-learning institutions.",
 	"ku": "Kurdish p 1" },
 
 "language-paragraph-two" : {
 	"ar": "Arabic p 2",
-	"en": "And yes, this scales elegantly. We have had success with full-site implementation of this. You can opt to write a function to output the binding, or hard-write it into each p, span, button, or other HTML element.",
+	"en": "And yes, this scales elegantly. We have had success with full-site implementation of this. You can opt to write a function to output the binding, or hard-write it into each <p>, <span>, <button>, or other HTML element.",
 	"ku": "Kurdish p 2" },
 
 "home" : {
