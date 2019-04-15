@@ -40,10 +40,11 @@ h2 {
   }
 
 #block-intro {
-  background: #111;
+  background: #fff;
   padding: 40px 0;
-  color: #fff;
-  box-shadow: 0 -20px 30px -2px rgba(20,20,20,0.2);
+  color: #000;
+  border-bottom: 20px solid #000;
+  margin: 0 0 0 30px;
   }
 
 #block-language-switching {
