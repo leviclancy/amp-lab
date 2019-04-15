@@ -87,9 +87,9 @@ $text_direction_default = "ltr"; ?>
 
 <div id='language-switching-buttons'>
 <span class='material-icons'>language</span>
-<span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'en'})">English</span>
-<span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'ku'})">كوردی</span>
-<span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'ar'})">عربي</span>
+<span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'en', selectedDirection: 'left-to-right'})">English</span>
+<span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'ku', selectedDirection: 'right-to-left'})">كوردی</span>
+<span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'ar', selectedDirection: 'right-to-left'})">عربي</span>
 </div>	
 
 <div id='direction-switching-buttons'>
