@@ -69,9 +69,9 @@ $language_default = "en"; ?>
 
 <div id='block-language-switching'>
 
-<h2 [text]="translatableElements['language-switching'][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_default] ?></h2>
+<h2 [text]="translatableElements[language-switching][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_default] ?></h2>
 
-<p [text]="translatableElements['language-paragraph-one'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_default] ?></p>
+<p [text]="translatableElements[language-paragraph-one][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_default] ?></p>
 
 <div id='language-switching-buttons'>
 <span class='material-icons'>language</span>
@@ -86,11 +86,11 @@ $language_default = "en"; ?>
 <span class='material-icons'>format_textdirection_r_to_l</span>
 </div>
 
-<span [text]="translatableElements['home'][selectedLanguage]"><? echo $translatable_elements['home'][$language_default] ?></span>
+<span [text]="translatableElements[home][selectedLanguage]"><? echo $translatable_elements['home'][$language_default] ?></span>
 
-<span [text]="translatableElements['sign-in'][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_default] ?></span>
+<span [text]="translatableElements[sign-in][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_default] ?></span>
 	
-<p [text]="translatableElements['language-paragraph-two'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_default] ?></p>
+<p [text]="translatableElements[language-paragraph-two][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_default] ?></p>
 
 </div>
 
