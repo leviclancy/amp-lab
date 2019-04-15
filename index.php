@@ -24,7 +24,7 @@ $language_default = "en"; ?>
 <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script> <!-- AMP form -->
 <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script> <!-- AMP bind -->
 <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script> <!-- AMP parallax -->
-	
+
 <!-- Set up HTML -->
 <title>AMP Lab @narrative.fyi</title>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -40,8 +40,8 @@ $language_default = "en"; ?>
 </head>
 	
 <body>
-	
-<amp-state id='translatableElements'>
+
+<amp-state id='translatableElements'><script type='application/json'>
 	<? // We are going to load the translatable elements as an <amp-state> and as a programmatic array
 
 	// First, get the JSON file
@@ -51,7 +51,7 @@ $language_default = "en"; ?>
 	// Make it into an array for setting initial values programmatically
 	$translatable_elements = json_decode($translatable_elements, TRUE);
 	?>
-	</amp-state>
+	</script></amp-state>
 
 <amp-img src='https://alisha.narrative.fyi/?action=image&image_id=7477454261341342759467916895795542287694' layout='responsive' width='1.858' height='1' amp-fx='parallax' data-parallax-factor='1.3'></amp-img>
 
@@ -69,9 +69,9 @@ $language_default = "en"; ?>
 
 <div id='block-language-switching'>
 
-<h2 [text]="translatableElements[language-switching][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_default] ?></h2>
+<h2 [text]="translatableElements['language-switching'][selectedLanguage]"><? echo $translatable_elements['language-switching'][$language_default] ?></h2>
 
-<p [text]="translatableElements[language-paragraph-one][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_default] ?></p>
+<p [text]="translatableElements['language-paragraph-one'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-one'][$language_default] ?></p>
 
 <div id='language-switching-buttons'>
 <span class='material-icons'>language</span>
@@ -86,11 +86,11 @@ $language_default = "en"; ?>
 <span class='material-icons'>format_textdirection_r_to_l</span>
 </div>
 
-<span [text]="translatableElements[home][selectedLanguage]"><? echo $translatable_elements['home'][$language_default] ?></span>
+<span [text]="translatableElements['home'][selectedLanguage]"><? echo $translatable_elements['home'][$language_default] ?></span>
 
-<span [text]="translatableElements[sign-in][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_default] ?></span>
+<span [text]="translatableElements['sign-in'][selectedLanguage]"><? echo $translatable_elements['sign-in'][$language_default] ?></span>
 	
-<p [text]="translatableElements[language-paragraph-two][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_default] ?></p>
+<p [text]="translatableElements['language-paragraph-two'][selectedLanguage]"><? echo $translatable_elements['language-paragraph-two'][$language_default] ?></p>
 
 </div>
 
