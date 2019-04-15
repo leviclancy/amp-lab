@@ -43,7 +43,7 @@
 
 	</amp-state>
 
-<amp-img src='https://alisha.narrative.fyi/?action=image&image_id=7477454261341342759467916895795542287694' layout='responsive' width='1.858' height='1' data-parallax-factor='1.3'></amp-img>
+<amp-img src='https://alisha.narrative.fyi/?action=image&image_id=7477454261341342759467916895795542287694' layout='responsive' width='1.858' height='1' amp-fx='parallax' data-parallax-factor='1.3'></amp-img>
 	      
 <h1>AMP Lab by narrative.fyi</h1>
 
