@@ -18,6 +18,10 @@ h1, h2, p {
   margin: 80px auto 40px;
   padding: 0 20px;
   }
+
+p {
+  margin: 30px auto;
+  }
   
 h1 {
   font-size: 150%;
