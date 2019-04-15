@@ -65,6 +65,7 @@ h2 {
 
 #language-switching-buttons span {
   font-size: 60%;
+  line-height: 1em;
   opacity: 0.8;
   padding: 0;
   margin: 0 10px;
@@ -78,6 +79,7 @@ h2 {
 
 #direction-switching-buttons span {
   font-size: 60%;
+  line-height: 1em;
   opacity: 0.8;
   padding: 0;
   margin: 0 10px;
