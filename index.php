@@ -37,7 +37,7 @@
 	
 <body>
 	
-<amp-state id=’translatableElements’>
+<amp-state id='translatableElements'>
 	<? // We are going to load the translatable elements as an <amp-state> and as a programmatic array
 	$translatable_elements = file_get_contents('translatable-elements.json', FILE_USE_INCLUDE_PATH); // First, get the JSON file
 	echo $translatable_elements; // Echo it into the <amp-state>
