@@ -57,29 +57,23 @@ h2 {
   position: relative;
   }
 
-#language-switching-buttons {
+#language-switching-buttons, #direction-switching-buttons {
   position: absolute;
   top: 10px;
+  }
+
+#language-switching-buttons {
   right: 15px;
   }
 
-#language-switching-buttons span {
-  font-size: 60%;
-  line-height: 1em;
-  opacity: 0.8;
-  padding: 0;
-  margin: 0 10px;
-  }
-
 #direction-switching-buttons {
-  position: absolute;
-  bottom: 10px;
   left: 15px;
   }
 
-#direction-switching-buttons span {
+#language-switching-buttons span, #direction-switching-buttons span {
   font-size: 60%;
   line-height: 1em;
+  vertical-align: middle;
   opacity: 0.8;
   padding: 0;
   margin: 0 10px;
