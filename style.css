@@ -5,7 +5,12 @@ body {
   font-size: 18px;
   line-height: 1.3em;
   }
-  
+
+amp-img {
+  max-width: 800px;
+  margin: 30px auto;
+  }
+
 h1, h2, p {
   width: 100%;
   max-width: 800px;
