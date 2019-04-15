@@ -38,13 +38,15 @@ $text_direction_default = "left-to-right"; ?>
 	<? include_once('style.css'); ?>
 	      
 	.left-to-right {
-	      text-align: left;
-	      direction: ltr;
+		text-align: left;
+		direction: ltr;
+		unicode-bidi: bidi-override; 
 	      }
 	      
 	 .right-to-left {
-	      text-align: right;
-	      direction: rtl;
+		text-align: right;
+		direction: rtl;
+		unicode-bidi: bidi-override; 
 	      }
 	      
 	</style>
