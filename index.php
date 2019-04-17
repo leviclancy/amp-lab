@@ -88,7 +88,7 @@ $text_direction_default = "ltr"; ?>
 <div id='language-switching-buttons'>
 <span class='material-icons'>language</span>
 <span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'en', selectedDirection: 'left-to-right'})">English</span>
-<span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'ku', selectedDirection: 'right-to-left'})">كوردی</span>
+<!-- <span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'ku', selectedDirection: 'right-to-left'})">كوردی</span> -->
 <span role='button' tabindex='0' on="tap: AMP.setState({selectedLanguage: 'ar', selectedDirection: 'right-to-left'})">عربي</span>
 </div>	
 
@@ -109,6 +109,8 @@ $text_direction_default = "ltr"; ?>
 <div id='block-amp-list'>
 
 <h2>AMP listing whenever possible!</h2>
+	
+<p>Using &lt;amp-list&gt; you can easily process forms, load page content, and more without forcing a refresh of the page. Also, less content is ultimately sent over bandwith — and any interruption to the network results in a graceful error message so that the user can try again later.</p>
 
 </div>
 
@@ -116,6 +118,8 @@ $text_direction_default = "ltr"; ?>
 
 <h2>AMP form responsiveness</h2>
 
+<p>By using &lt;amp-form&gt; you gain a component that brings you close to production quality. With built-in handling for error messages and an approach that transmits content without forcing a page refresh, using &lt;amp-form&gt; provides a more elegant approach that benefits people whose connections may be severely disrupted.</p>
+	
 </div>
 	
 </body>
