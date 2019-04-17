@@ -65,7 +65,7 @@ $text_direction_default = "ltr"; ?>
 	?>
 	</script></amp-state>
 								    
-<amp-img src='https://alisha.narrative.fyi/?action=image&image_id=7477454261341342759467916895795542287694' layout='responsive' width='1.858' height='1' amp-fx='parallax' data-parallax-factor='1.3'></amp-img>
+<amp-img src='https://alisha.narrative.fyi/?action=image&image_id=7682855652963924732419395587719478664129' layout='responsive' width='1.858' height='1' amp-fx='parallax' data-parallax-factor='1.3'></amp-img>
 
 <div id='block-intro'>
 
