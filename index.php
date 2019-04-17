@@ -2,10 +2,9 @@
 $language_default = "en";
 $text_direction_default = "ltr"; ?>
 
-
 <!-- Open document -->
-<!doctype html> <html amp lang='<? echo $language_default; ?>'>
-
+<!doctype html> <html amp lang='<? echo $language_default; ?>'>   
+	
 <!-- Open HTML head -->
 <head> <meta charset='utf-8'>
 
